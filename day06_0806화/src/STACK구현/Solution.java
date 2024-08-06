@@ -1,4 +1,4 @@
-package Stack2;
+package STACK구현;
 
 public class Solution {
 
