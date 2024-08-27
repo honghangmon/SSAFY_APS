@@ -1,8 +1,12 @@
 package SWEA_1225_암호생성기;
 
 import java.util.Scanner;
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 
 public class Solution {
@@ -14,6 +18,10 @@ public class Solution {
 		for(int t = 1; t <= 10; t++) {
 			
 			int N = sc.nextInt();
+			Queue arm = new LinkedList();
+			Deque<Integer> stack = new ArrayDeque<>();
+			stack.
+			arm.offer(sc)
 			
 			MyQueue arm = new MyQueue(); 
 		// MyQueue에서 arm 변수 지정 for문으로 0~7 8개 값 저장 

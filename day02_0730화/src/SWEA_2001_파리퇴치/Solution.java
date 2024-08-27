@@ -1,11 +1,10 @@
 package SWEA_2001_파리퇴치;
 
-<<<<<<< HEAD
-
 import java.util.Scanner;
 
 public class Solution {
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		
 		int T = sc.nextInt();

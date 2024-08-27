@@ -3,7 +3,7 @@ package SWEA_1954_달팽이숫자 ;
 
 import java.util.Scanner;
 
-public class Solution {
+public class Solutio {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
