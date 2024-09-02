@@ -1,3 +1,5 @@
+package SWEA_2817_부분수열의_합;
+
 public class 부분집합_03_재귀함수 {
 	// static 아직 모른다면 이제는 곤란해~~
 	static String[] 재료 = { "단무지", "햄", "오이", "시금치" };
@@ -19,28 +21,18 @@ public class 부분집합_03_재귀함수 {
 		if(idx == N ) {
 			String tmp = "김밥 : ";
 			for(int i = 0 ;i<N ;i++) {
-				if(sel[i])
-					tmp+=재료[i];
+				if(sel[i])          
+					tmp+=재료[i];     
 			}
 			System.out.println(tmp);
-			return;
+			return;                                   
 		}
-		
-		
-		
-		//재귀부분 : 나 자신을 다시 호출하는 부분
-		sel[idx] = true; //해당 위치의 재료를 사용했어요~
-		powerset(idx + 1);
+		                                                  
+		//재귀부분 : 나 자신을 다시 호출하는 부분                    
+		sel[idx] = true; //해당 위치의 재료를 사용했어요~           
+		powerset(idx + 1);                                 
 		
 		sel[idx] = false; //해당 위치의 재료를 사용하지 안했어요~
 		powerset(idx + 1);
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }

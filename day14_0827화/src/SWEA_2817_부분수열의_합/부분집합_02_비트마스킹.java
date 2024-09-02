@@ -1,3 +1,5 @@
+package SWEA_2817_부분수열의_합;
+
 public class 부분집합_02_비트마스킹 {
 	// static 아직 모른다면 이제는 곤란해~~
 	static String[] 재료 = { "단무지", "햄", "오이", "시금치" };

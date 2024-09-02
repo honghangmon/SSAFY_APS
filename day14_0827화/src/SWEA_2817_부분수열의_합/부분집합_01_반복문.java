@@ -1,3 +1,5 @@
+package SWEA_2817_부분수열의_합;
+
 import java.util.Arrays;
 
 public class 부분집합_01_반복문 {

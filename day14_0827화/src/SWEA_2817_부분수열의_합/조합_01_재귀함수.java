@@ -1,3 +1,5 @@
+package SWEA_2817_부분수열의_합;
+
 import java.util.Arrays;
 
 public class 조합_01_재귀함수 {
@@ -20,7 +22,7 @@ public class 조합_01_재귀함수 {
 		//기저조건
 		if(sidx == R) {
 			//모든 재료를 전부다 뽑았다!
-			System.out.println(Arrays.toString(sel));
+			System.out.println(Arrays.toString(sel));   
 			return;
 		}
 		if(idx == N) { //어차피 위에서 완벽한 햄버거는 다 걸려 /요기는 이상해 재료 부족한 친구들만 와
