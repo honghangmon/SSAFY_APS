@@ -18,9 +18,16 @@ public class 복사 {
 				if(sel[i]) {
 					tmp += 재료[i];
 				}
+			}
 				System.out.println(tmp);
 				return;
 			}
+			
+		sel[idx] = true;
+		powerset(idx + 1);
+		
+		sel[idx] = false;
+		powerset(idx + 1);
 		}
 	}
-}
+
